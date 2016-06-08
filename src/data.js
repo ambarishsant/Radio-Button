@@ -1,7 +1,27 @@
 var optionArray = {
-	optionCount : [1,2,3,4],
-	optionAnswers : ['India','Japan','Sri Lanka','Nepal'],
-	optionName : 'countries'
+	name : 'countries',
+	values : [
+		{
+			displayName: 'India',
+			value: 'india',
+			correct: false
+		},
+		{
+			displayName: 'Japan',
+			value: 'japan',
+			correct: false
+		},
+		{
+			displayName: 'Sri Lanka',
+			value: 'sri_lanka',
+			correct: false
+		},
+		{
+			displayName: 'Nepal',
+			value: 'nepal',
+			correct: true
+		}
+	]
 };
 
 function optionFunction() {
